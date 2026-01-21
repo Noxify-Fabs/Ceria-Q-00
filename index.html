@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Cerita Anak Islam - Petualangan Akhlak Mulia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logopkm.png" alt="PKM Logo" class="logo-image">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#stories" class="nav-link">Cerita</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                         UBAY LALA : Sahabat Surga 
+                    </h1>
+                    <p class="hero-subtitle">
+                        Mari bergabung dengan Ubay dan Lala dalam petualangan menanamkan nilai-nilai Islam!
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#stories" class="btn btn-primary">
+                             Mulai Belajar
+                        </a>
+                        <a href="#about" class="btn btn-secondary">
+                             Tentang Nilai Islam
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-illustration">
+                        <img src="assets/images/char-pkm.png" alt="PKM Character" class="hero-character">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"> Tentang Pembelajaran Islam Ini</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">📚</div>
+                    <h3>Pembelajaran Akhlak</h3>
+                    <p>Bergabunglah dalam petualangan yang mengajarkan nilai-nilai Islam seperti jujur, sabar, dan peduli.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🎬</div>
+                    <h3>Audio & Video Animasi</h3>
+                    <p>Nikmati cerita dengan audio doa dan video animasi yang menarik untuk anak-anak.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🌈</div>
+                    <h3>Nilai-nilai Islam</h3>
+                    <p>Ilustrasi islami yang menanamkan kecintaan pada Al-Qur'an dan Sunnah sejak dini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section id="stories" class="stories">
+        <div class="container">
+            <h2 class="section-title"> Pilih Pelajaran Islam</h2>
+            <div class="stories-grid">
+                <div class="story-card" onclick="openStory(1)">
+                    <div class="story-card-image">
+                        <div class="story-emoji">🕌</div>
+                    </div>
+                    <div class="story-card-content">
+                        <h3>Pelajaran 1</h3>
+                        <p>Kejujuran adalah Kunci Surga</p>
+                        <div class="story-meta">
+                            <span>📄 5 Halaman</span>
+                            <span>⏱ 15 menit</span>
+                        </div>
+                    </div>
+                    <div class="story-card-arrow">
+                        ➡️
+                    </div>
+                </div>
+
+                <div class="story-card" onclick="openStory(2)">
+                    <div class="story-card-image">
+                        <div class="story-emoji">🤲</div>
+                    </div>
+                    <div class="story-card-content">
+                        <h3>Pelajaran 2</h3>
+                        <p>Kasih Sayang Sesama Muslim</p>
+                        <div class="story-meta">
+                            <span>📄 5 Halaman</span>
+                            <span>⏱ 15 menit</span>
+                        </div>
+                    </div>
+                    <div class="story-card-arrow">
+                        ➡️
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                         Buku Cerita Anak Islam
+                    </div>
+                    <p class="footer-description">
+                        Platform edukasi Islam untuk anak-anak dengan cerita menarik dan nilai-nilai akhlak mulia.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <span class="social-icon">📘</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <span class="social-icon">🐦</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <span class="social-icon">📷</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <span class="social-icon">📺</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Menu Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Beranda</a></li>
+                        <li><a href="#about" class="footer-link">Tentang</a></li>
+                        <li><a href="#stories" class="footer-link">Cerita</a></li>
+                        <li><a href="#" class="footer-link">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Pelajaran</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Kejujuran</a></li>
+                        <li><a href="#" class="footer-link">Kasih Sayang</a></li>
+                        <li><a href="#" class="footer-link">Sabar</a></li>
+                        <li><a href="#" class="footer-link">Peduli</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Informasi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Tentang PKM</a></li>
+                        <li><a href="#" class="footer-link">Tim Pengembang</a></li>
+                        <li><a href="#" class="footer-link">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="footer-link">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 - Proyek PKM. All rights reserved.</p>
+                    <p class="footer-credits">Dikembangkan untuk pendidikan Islam anak Indonesia</p>
+                </div>
+                <div class="footer-badges">
+                    <span class="badge">PKM 2026</span>
+                    <span class="badge">Edukasi Islam</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner">🕌</div>
+            <p>Loading...</p>
+        </div>
+    </div>
+</body>
+</html>
